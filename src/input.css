@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .xettler{
+        @apply relative after:w-56 after:border-[#4a55684d] after:absolute after:top-[0] after:right-0 after:border-b after:border-dotted;
+    }
+    .xettlerr{
+        @apply relative after:w-80 after:border-[#4a55684d] after:absolute after:top-[0] after:right-0 after:border-b after:border-dotted;
+    }
+    .xettlerrr{
+        @apply relative after:w-full after:border-[#4a55684d] after:absolute after:top-[0] after:right-0 after:border-b after:border-dotted;
+    }
+    .drop-lang{
+        @apply invisible opacity-0 duration-500; 
+    }
+    .dropdown-language #check:checked ~ .drop-lang {
+        @apply visible opacity-100;
+    }
+}

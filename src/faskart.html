@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="overflow-x-hidden">
+
+
+
+    <header class="bir bg-[#0da487]">
+        <div class="container flex justify-center items-center w-full h-[50px] mx-auto px-16 text-white">
+            <div class="sol w-4/5 lg:flex flex-col hidden ">
+                <span class="text-[16px]">Welcome toFastkart!Wrap new offers/gift every signle day on Weekends.New
+                    Coupon
+                    Code:Fast024</span>
+            </div>
+            <div class="sag w-1/5 flex justify-evenly items-center ml-20 lg:translate-x-0 translate-x-24">
+                <div class="sol1 flex items-center justify-evenly w-[108px] relative dropdown-language">
+                    <input type="checkbox" class="hidden" id="check">
+                    <label for="check" class="cursor-pointer">
+                        <img class="w-[20px] lg:mr-0 mr-2" src="united-states.png" alt="">
+                        <span class="text-[15px]">Engilish</span>
+                        <i class="text-[15px] fa-solid fa-angle-down"></i>
+                    </label>
+                    <div class="drop-lang  w-[150px] h-[150px] absolute bg-white rounded top-6 -translate-x-2">
+                        <div class="flex flex-col justify-evenly w44 items-center relative ">
+                            <div class="w-52 h-52 absolute top-0 bg-slate-700 z-50">
+                                <div class="flex">
+                                    <img class="w-10"
+                                        src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-kingdom.png"
+                                        alt="">
+                                    <span>Engilish</span>
+                                </div>
+                                <div class="flex">
+                                    <span>Germany</span>
+                                    <img class="w-10"
+                                        src="https://themes.pixelstrap.com/fastkart/assets/images/country/germany.png"
+                                        alt="">
+                                </div>
+                                <div class="flex">
+                                    <img class="w-10"
+                                        src="https://themes.pixelstrap.com/fastkart/assets/images/country/turkish.png"
+                                        alt="">
+                                    <span>Turki</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="sag1 flex items-center justify-evenly border-l pl-3.5 lg:ml-0 ml-7">
+                    <span class="text-[15px]">USD</span>
+                    <i class="text-[15px] fa-solid fa-angle-down ml-2"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <nav class="nav-ust sticky top-0 bg-opacity-100 bg-white z-50 py-2 ">
+        <div class="container mx-auto px-16 flex justify-evenly items-center w-full my-6">
+            <div class="lg:w-[15%] w-[38%] lg:ml-0 ml-20">
+                <i class="fa-solid fa-bars lg:hidden block  -translate-x-36 text-xl"></i>
+                <img class="lg:translate-y-0 -translate-y-7 "
+                    src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="">
+            </div>
+            <div class="w-[70%] hidden  lg:flex justify-evenly">
+                <div class="border rounded w-[200px] h-[50px] flex justify-around items-center">
+                    <i
+                        class="bg-gray-200 w-9 h-9 rounded flex justify-center items-center fa-solid fa-location-dot"></i>
+                    <span>Your Location</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="border rounded w-[34rem] flex justify-between items-center">
+                    <input class="ml-4 outline-none" type="text" placeholder="I'm searching for...">
+                    <i
+                        class=" fa-solid fa-magnifying-glass text-white bg-[#ffa53b] w-16 h-12 flex justify-center items-center "></i>
+                </div>
+            </div>
+            <div class="w-1/5">
+                <ul class="flex justify-evenly">
+                    <li class="text-xl lg:block hidden">
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    </li>
+                    <li class="text-xl border-l pl-[13px] lg:block hidden">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li class="text-xl border-l  pl-[13px] relative group lg:block hidden">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <div
+                            class="w-[350px] h-[300px] rounded bg-white absolute top-20 -left-[300px] invisible opacity-0 group-hover:visible group-hover:opacity-100 duration-150">
+                            <div class="flex flex-col justify-evenly mt-4 ">
+                                <div class="flex">
+                                    <div class="flex justify-evenly w-52 -translate-x-1">
+                                        <img class="w-20 bg-[#e6f6f3]"
+                                            src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
+                                            alt="">
+                                    </div>
+                                    <div class="flex flex-col text-[18px] w-96 translate-x-10">
+                                        <span class="text-[#0da487]">Fantasy Curuncy Choc..</span>
+                                        <span>1 x $80.58</span>
+                                    </div>
+                                </div>
+                                <div class="flex mt-4">
+                                    <div class="flex justify-evenly w-52 -translate-x-1">
+                                        <img class="w-20 bg-[#e6f6f3]"
+                                            src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/2.png"
+                                            alt="">
+                                    </div>
+                                    <div class="flex flex-col text-[18px] w-96 translate-x-10">
+                                        <span class="text-[#0da487]">Fantasy Curuncy Choc..</span>
+                                        <span>1 x $80.58</span>
+                                    </div>
+                                </div>
+                                <div class="bg-gray-400 w-full h-px mt-4"></div>
+                                <div>
+                                    <div class="flex justify-between w-96 translate-y-4">
+                                        <span class="translate-x-4">Total :</span>
+                                        <span class="-translate-x-12 text-2xl text-[#0da487]">$106.58</span>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between w-96 translate-y-6">
+                                            <p
+                                                class="translate-x-4 border w-28 h-10 bg-[#0da487] flex justify-center items-center text-white text-[15px]">
+                                                Checkout</p>
+                                            <p
+                                                class="-translate-x-12 border border-green-700 hover:bg-[#0da487] hover:text-white w-24 h-10 text-[#0da487] flex justify-center items-center text-[15px]">
+                                                View Cart</p>
+                                        </div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li
+                        class="text-xl lg:border-l lg:translate-x-0 translate-x-20 lg:translate-y-0 -translate-y-3 relative group pl-[13px]">
+                        <a href="#"><i class="fa-solid fa-user "></i></a>
+                        <div
+                            class="w-[150px] h-[150px] absolute bg-white rounded top-10 -translate-x-32 invisible opacity-0 group-hover:visible group-hover:opacity-100 duration-150">
+                            <div
+                                class="flex flex-col justify-center items-start translate-y-10 translate-x-6 text-[15px]">
+                                <span>Log in</span>
+                                <span>Register</span>
+                                <span>Forgot Pssword</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-alt mt-10 lg:block hidden">
+        <div class="container mx-auto px-16 flex justify-around items-center">
+            <div class="w-1/5 text-white text-[17px]">
+                <div
+                    class=" border w-48 h-14 z-50 translate-y-3 bg-[#0da487] flex justify-evenly items-center group relative">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                    <span>All Categories</span>
+                    <div
+                        class="w-[250px] h-[530px] translate-x-6 top-10 rounded-xl absolute bg-white opacity-0 z-50 invisible group-hover:visible group-hover:opacity-100 transition duration-150">
+                        <ul class="translate-x-4 text-black">
+                            <li class="flex mt-8">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                    href="#">Vegetables &
+                                    Fruit</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]" src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
+                                    alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                    href="#">Beverages</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Meats &
+                                    Seafood</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Breakfast
+                                    &
+                                    Dairy</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Frozen
+                                    Foods</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Biscuits
+                                    &
+                                    Snacks</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Grocery &
+                                    Staples</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]"
+                                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/drink.svg" alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Wines &
+                                    Alcohol Drinks</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]" src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg"
+                                    alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Milk &
+                                    Dairies</a>
+                            </li>
+                            <li class="flex mt-6">
+                                <img class="w-[20px]" src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
+                                    alt="">
+                                <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Pet
+                                    Foods</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-3/4">
+                <ul class="flex justify-evenly items-center w-[48rem] ml-14">
+                    <li class="text-[17px] group relative">
+                        <a class="hover:text-[#0da487]" href="faskart.html">
+                            <span>Home</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[300px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Kartshop</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Sweetshop</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Organic</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Supershop</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Classic
+                                        shop</a>
+                                </li>blank
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Furniture</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Search
+                                        Oriented</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Category
+                                        Focus</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Fashion</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] group relative">
+                        <a class="hover:text-[#0da487]" href="#">
+                            <span>Shop</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[252px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="shop.html">Shop Category Slider</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="faskart.html">Shop Category Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        Banner</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Left
+                                        Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        List</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Right
+                                        Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Top
+                                        Filter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] group relative">
+                        <a class="hover:text-[#0da487]" href="product.html">
+                            <span>Product</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[175px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="product.html">Product 4 Image</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Product
+                                        Thumbnail</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Product
+                                        Bundle</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Product
+                                        Slider</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Product
+                                        Sticky</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] group relative +">
+                        <a class="hover:text-[#0da487]" href="#">
+                            <span>Mega Menu</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[252px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        Category Slider</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        Category Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        Banner</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Left
+                                        Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop
+                                        List</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Right
+                                        Sidebar</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Shop Top
+                                        Filter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] group relative">
+                        <a class="hover:text-[#0da487]" href="blog.html">
+                            <span>Blog</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[120px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="blog-detail.html">Blog Detail</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Blog
+                                        Grid</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="blog-list.html">Blog List</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] -translate-y-[10px] group relative z-50">
+                        <a class="hover:text-[#0da487]" href="#">
+                            <img src="./assets/images/new.png" alt="">
+                            <span>Pages</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[455px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Email
+                                        Template</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Invoice
+                                        Template</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">404</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">About
+                                        Us</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Cart</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Contact</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Checkout</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Checkout</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Coming
+                                        Soon</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105"
+                                        href="#">Compare</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Faq</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Order
+                                        Success</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Order
+                                        Success</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">OTP</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Search</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Search</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="text-[17px] group relative">
+                        <a class="hover:text-[#0da487]" href="#">
+                            <span>Seller</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div
+                            class="w-[200px] h-[200px] absolute bg-white rounded-xl z-50 invisible top-5 opacity-0 group-hover:visible group-hover:opacity-100 transition duration-150">
+                            <ul class="flex flex-col justify-center pl-5">
+                                <li class="mt-4 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Become a
+                                        Seller</a>
+                                </li>
+                                <li class="mt-3 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Seller
+                                        Dashboard</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Seller
+                                        Detail</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Seller
+                                        Detail 2</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Seller
+                                        Grid</a>
+                                </li>
+                                <li class="mt-2 text-[14px]">
+                                    <a class="hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Seller
+                                        Grid 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-[5%] h-10 flex justify-center items-center rounded bg-[#e7f6f3] mr-4">
+                <i class="text-[#0da487] fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="dord my-7">
+        <div class="container mx-auto lg:px-16 px-5  pl-5 lg:flex  justify-evenly">
+            <div class="lg:w-[70%] w-full">
+                <div
+                    class="sag1 lg:rounded-xl rounded-2xl lg:bg-[center_bottom_0rem] bg-[url('../src/assets/images/1.jpg')] lg:bg-cover bg-cover bg-[center_right_0rem]  lg:w-[48rem] lg:h-[100%] w-full h-full">
+                    <div class="sol1 flex flex-col lg:pl-16 pl-6 lg:-translate-y-0 -translate-y-4 justify-center">
+                        <div class="bir flex items-center lg:mt-24 mt-10 ">
+                            <span class="text-gray-500">Exclusive offer</span>
+                            <p
+                                class="border rounded-full w-24 h-9 text-red-500 bg-red-200 bg-opacity-6 ml-2 flex justify-center items-center">
+                                30% Off</p>
+                        </div>
+                        <div class="iki lg:w-[20rem] w-[42%]">
+                            <span class="lg:text-[40px] text-[20px] text-sembolid ">STAY HOME & DELIVERED YOUR</span>
+                        </div>
+                        <div class="uc">
+                            <span class="text-[#0da487] lg:text-[40px] text-[20px] font-semibold">DAILY NEEDS</span>
+                        </div>
+                        <div class="dord w-80">
+                            <h4 class="text-gray-400 text-[15px] lg:block hidden">Vegetables contain many vitamins and
+                                minerals that are
+                                good for your health.</h4>
+                        </div>
+                        <div
+                            class="bes mt-2 border rounded-xl lg:w-[9rem] lg:h-12 w-[30%] h-10 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                            <span>Shop Now</span>
+                            <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-[30%] w-full mr-4">
+                <div
+                    class="sag-ust z-30  bg-[url('../src/assets/images/2.jpg')] lg:w-[22rem] w-full lg:mt-0 mt-5 bg-cover bg-center h-[228px]  rounded-xl">
+                    <div class=" pl-5 translate-y-4">
+                        <div class="flex">
+                            <span class="text-red-500 text-[40px] font-semibold">45%</span>
+                            <p class="text-[16px] ml-2 flex mt-6 font-semibold">OFF</p>
+                        </div>
+                        <div class="">
+                            <h4 class="text-[#0da487] text-[25px] font-semibold">Nut Collection</h4>
+                        </div>
+                        <div class=" w-44">
+                            <p class="text-[15px] text-gray-400">We deliver organic vegetables & fruits</p>
+                        </div>
+                        <div class="mt-4">
+                            <span>Shop Now</span>
+                            <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="sag-asagi  bg-[url('../src/assets/images/3.jpg')]  lg:w-[22rem] w-full bg-cover bg-center h-[228px] mt-6 rounded-xl">
+                    <div class="pl-5 translate-y-4">
+                        <div>
+                            <span class="text-[#0da487] text-[25px] font-semibold">Healthy Food</span>
+                        </div>
+                        <div>
+                            <span class="text-red-500 text-[20px]">Organic Market</span>
+                        </div>
+                        <div class="w-36">
+                            <p class="text-[15px] text-gray-400 mt-2">Start your daily shopping with some</p>
+                        </div>
+                        <div class="mt-4">
+                            <span>Shop Now</span>
+                            <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bes my-4">
+        <div class="container mx-auto lg:px-16 px-5 flex justify-evenly">
+            <div
+                class="lg:w-[32%] w-full  lg:translate-y-0 translate-y-4 bg-[url('../src/assets/images/4.jpg')] lg:h-52 h-56 bg-bottom bg-cover rounded">
+                <div
+                    class="ust border rounded-r-full w-64 lg:w-[230px]  lg:h-[5rem] bg-white flex flex-col justify-center lg:pl-3 lg:mt-6">
+                    <span class="text-red-500 text-[16px]">5% OFF</span>
+                    <h1 class="text-[17px] font-semibold">Hot Deals on New Items</h1>
+                    <p class="text-gray-400 text-[15px]">Daily Essentials Eggs & Dairy</p>
+                </div>
+                <div
+                    class="alt lg:translate-x-1 lg:translate-y-16 translate-y-24 translate-x-2 text-white flex items-center justify-evenly w-32">
+                    <span>Show Now</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div
+                class="w-[32%] lg:block hidden ml-4 mr-4 bg-[url('../src/assets/images/5.jpg')] h-52 bg-bottom bg-cover rounded">
+                <div
+                    class="ust border rounded-r-full w-[230px] h-[5rem] bg-white flex flex-col justify-center pl-3 mt-6">
+                    <span class="text-red-500 text-[16px]">5% OFF</span>
+                    <h1 class="text-[17px] font-semibold">Buy More & Save More</h1>
+                    <p class="text-gray-400 text-[15px]">Fresh Vegetables</p>
+                </div>
+                <div class="alt translate-x-1 translate-y-16 text-white flex items-center justify-evenly w-32">
+                    <span>Show Now</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div
+                class="w-[32%] lg:block hidden  bg-[url('../src/assets/images/6.jpg')] h-52 bg-bottom bg-cover rounded">
+                <div
+                    class="ust border rounded-r-full w-[230px] h-[5rem] bg-white flex flex-col justify-center pl-3 mt-6">
+                    <span class="text-red-500 text-[16px]">5% OFF</span>
+                    <h1 class="text-[17px] font-semibold">Organic Meat Prepared</h1>
+                    <p class="text-gray-400 text-[15px]">Deliverd to Your Home</p>
+                </div>
+                <div class="alt translate-x-1 translate-y-16 text-white flex items-center justify-evenly w-32">
+                    <span>Show Now</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="alti">
+        <div class="container mx-auto lg:px-16 px-5 flex lg:translate-x-0 translate-x-4">
+            <div class="lg:block hidden w-[32%] h-[80rem] ml-1 rounded bg-[#f8f8f8]">
+                <div class="category flex flex-col ml-6 mt-6">
+                    <span class="text-[#0da487] text-xl border-b-2 border-b-green-600 w-14">Category</span>
+                    <ul>
+                        <li class="flex mt-8">
+                            <img class="w-[25px]" src="./assets/images/vegetable.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Vegetables &
+                                Fruit</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[25px]" src="./assets/images/cup.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Beverages</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[25px]" src="./assets/images/meats.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Meats &
+                                Seafood</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[25px]" src="./assets/images/breakfast.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Breakfast &
+                                Dairy</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[20px]" src="./assets/images/frozen.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Frozen
+                                Foods</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[20px]" src="./assets/images/biscuit.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Biscuits &
+                                Snacks</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[20px]" src="./assets/images/grocery.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Grocery &
+                                Staples</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[15px]" src="./assets/images/drink.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Wines &
+                                Alcohol Drinks</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[20px]" src="./assets/images/milk.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Milk &
+                                Dairies</a>
+                        </li>
+                        <li class="flex mt-6">
+                            <img class="w-[20px]" src="./assets/images/pet.svg" alt="">
+                            <a class="ml-2 hover:border-b-2 border-b-green-600 hover:scale-x-105" href="#">Pet Foods</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="xettlerr -translate-x-6 my-10"></div>
+                <div class="asagii mt-20">
+                    <ul class="ml-5">
+                        <li>
+                            <a href="#">Value of the Day</a>
+                        </li>
+                        <li class="my-4">
+                            <a href="#">Top 50 Offers</a>
+                        </li>
+                        <li>
+                            <a href="#">New Arrivals</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:w-[68%] w-full translate-x-6">
+                <div class="bass  lg:translate-x-0 -translate-x-6 lg:mt-0 mt-4">
+                    <div class="blog">
+                        <span class="text-3xl font-semibold">Top Save Today</span>
+                    </div>
+                    <div class="yarpaq flex items-center">
+                        <div class="xet1 bg-[#0da487] w-16 h-0.5 mt-1"></div>
+                        <div class="teq">
+                            <i class="fa-solid fa-leaf text-[#0da487] text-[18px] ml-2 mr-2"></i>
+                        </div>
+                        <div class="xet2 bg-[#0da487]  w-16 h-0.5 mt-1"></div>
+                    </div>
+                    <div class="yazii mt-2 mb-4 w-[28rem]">
+                        <span class="text-gray-400 lg:text-[17px]">Don't miss this opportunity at a special discount
+                            just
+                            for this week.</span>
+                    </div>
+                </div>
+                <div class="ikinci flex flex-wrap w-full lg:translate-x-0 -translate-x-10">
+                    <div
+                        class="one group relative border rounded-l-xl lg:w-[33%] w-1/2 lg:h-96 h-[340px] lg:pl-5 pl-5 flex flex-col justify-center items-start">
+                        <div class="sekill lg:pl-10">
+                            <img class="group-hover:scale-75" src="./assets/images/1.png" alt="">
+                            <div
+                                class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150  pl-4">
+                                <div class="flex justify-evenly items-center translate-y-4">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-code border-l-2 h-4  w-12"></i>
+                                    <i class="fa-regular fa-heart border-l-2 h-4  w-12"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chip  w-56 mt-3">
+                            <a class="lg:text-[15px] text-[14px] font-semibold" href="#">Fantasy Crunchy Choco Chip</a>
+                        </div>
+                        <div class="cookies ">
+                            <a href="#">Cookies</a>
+                        </div>
+                        <div class="reqemler">
+                            <span class="text-[#0da487]">$26.69</span>
+                            <span class="line-through">28.56</span>
+                        </div>
+                        <div class="ulduz  flex lg:mt-3">
+                            <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                            <span class="text-[16px]">In Stock</span>
+                        </div>
+                        <div
+                            class="add flex justify-around translate-y-4 bg-[#f8f8f8] lg:w-56 w-44 h-10 rounded-full items-center">
+                            <span class="ml-4">Add</span>
+                            <p>+</p>
+                        </div>
+                    </div>
+                    <div
+                        class="two border lg:rounded-r-none rounded-r-2xl lg:w-[33%] w-1/2 lg:h-96 h-[340px] flex flex-col justify-center items-center">
+                        <div class="one  group relative lg:mt-2 mt-10">
+                            <div class="sekill ml-6 -translate-y-3">
+                                <img class="group-hover:scale-75" src="./assets/images/3.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip w-52 flex lg:translate-x-0 translate-x-4">
+                                <a class="lg:text-[15px] text-[14px] lg:ml-4 font-semibold" href="#">Penaut Butter Bite
+                                    Premium Butter Cookies
+                                    600 g</a>
+                            </div>
+                            <div class="reqemler lg:ml-4 ml-4">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz ml-5 flex lg:mt-3">
+                                <img class="w-20  object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add add flex justify-around bg-[#f8f8f8] lg:w-56 w-44 h-10 lg:ml-4 ml-4 lg:translate-y-5  mb-4 rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="three hidden border lg:w-[33%] w-1/2 rounded-r-2xl lg:flex flex-col justify-center items-center">
+                        <div class="one group relative lg:mt-6 ">
+                            <div class="sekill">
+                                <img class="group-hover:scale-105" src="./assets/images/5.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4 translate-x-6">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4  w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip lg:w-56">
+                                <a class="text-[15px] font-semibold" href="#">Yumitos Chilli Sprinkled Potato Chips
+                                    100g</a>
+                            </div>
+                            <div class="reqemler">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz  flex mt-3">
+                                <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add add flex justify-around bg-[#f8f8f8] w-56 h-10 mt-6 rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="four border rounded-l-xl rounded-b-xl lg:w-[33%] w-1/2 lg:h-96 h-80 flex flex-col justify-center items-center lg:translate-x-0 lg:translate-y-0 ">
+                        <div class="one group relative">
+                            <div class="sekill w-36">
+                                <img class="group-hover:scale-105" src="./assets/images/2.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip lg:ml-5 ml-4 lg:mt-4 w-48">
+                                <a class="text-[15px] font-semibold" href="#">Cold Brew Coffee Instant Coffee 50 g </a>
+                            </div>
+                            <div class="reqemler ml-5">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz ml-5 flex lg:mt-3">
+                                <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add flex justify-around bg-[#f8f8f8] lg:w-56 w-44 h-10 ml-4 lg:mt-12 mt-5  rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="five hidden  border w-[33%] h-96 lg:flex flex-col justify-center items-center">
+                        <div class="one group relative">
+                            <div class="sekill">
+                                <img class="group-hover:scale-105" src="./assets/images/4.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip ml-5 mt-4">
+                                <a class="text-[15px] font-semibold" href="#">SnackAmor Combo Pack of Jowar Stick and
+                                    Jowar Chips</a>
+                            </div>
+                            <div class="reqemler ml-5">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz ml-5 flex mt-3">
+                                <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add flex justify-around bg-[#f8f8f8] w-56 h-10 ml-4 mt-10 rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="six border rounded-r-xl rounded-b-xl lg:w-[33%] w-1/2 lg:h-96 h-80 flex flex-col justify-center items-center lg:translate-y-0">
+                        <div class="one group relative">
+                            <div class="sekill w-32">
+                                <img class="group-hover:scale-105" src="./assets/images/6.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip ml-4 lg:mt-5 w-44">
+                                <a class="text-[15px] font-semibold" href="#">New Farm Unpolished Desi Toor Dal 1kg</a>
+                            </div>
+                            <div class="reqemler lg:ml-5 ml-4">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz ml-5 flex lg:mt-3">
+                                <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add flex justify-around bg-[#f8f8f8] lg:w-56 w-44 h-10 lg:ml-4 lg:mt-12 ml-2 mt-4 rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ucuncu lg:translate-y-0 lg:translate-x-0 -translate-x-8">
+                    <div class="bass mt-10">
+                        <div class="blog w-80">
+                            <span class="text-3xl font-semibold">Bowse By Categories</span>
+                        </div>
+                        <div class="yarpaq flex items-center">
+                            <div class="xet1 bg-[#0da487] w-16 h-0.5 mt-1"></div>
+                            <div class="teq">
+                                <i class="fa-solid fa-leaf text-[#0da487] text-[18px] ml-2 mr-2"></i>
+                            </div>
+                            <div class="xet2 bg-[#0da487]  w-16 h-0.5 mt-1"></div>
+                        </div>
+                        <div class="yazii mt-2 mb-4">
+                            <span class="text-gray-400 text-[17px]">Top Categories Of The Week</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dorduncu lg:flex flex flex-wrap justify-evenly">
+                    <div
+                        class="birincii flex lg:translate-x-0 lg:translate-y-0 -translate-x-10  overflow-hidden  border w-36 h-32 rounded bg-[#f8f8f8f8] flex-col items-center justify-center hover:bg-[url('../src/assets/images/shape.png')] hover:bg-[#0da487] hover:text-white">
+                        <img class="lg:w-[30px] w-[25px]" src="./assets/images/vegetable.svg" alt="">
+                        <a class="ml-2 mt-3" href="#">Vegetables & Fruit</a>
+                    </div>
+                    <div
+                        class="ikincii  flex lg:translate-x-0 lg:translate-y-0  -translate-x-[37px] overflow-hidden border w-36 h-32 rounded bg-[#f8f8f8f8] flex-col items-center justify-center hover:bg-[url('../src/assets/images/shape.png')] hover:bg-[#0da487] hover:text-white">
+                        <img class="lg:w-[30px] w-[25px]" src="./assets/images/cup.svg" alt="">
+                        <a class="ml-2" href="#">Beverages</a>
+                    </div>
+                    <div
+                        class="ucuncuu  flex border w-36 h-32  lg:translate-x-0 -translate-x-[33px] rounded bg-[#f8f8f8f8] flex-col items-center justify-center hover:bg-[url('../src/assets/images/shape.png')] hover:bg-[#0da487] hover:text-white">
+                        <img class="lg:w-[30px] w-[25px]" src="./assets/images/meats.svg" alt="">
+                        <a class="ml-2" href="#">Meats & Seafood</a>
+                    </div>
+                    <div
+                        class="dorduncuu  flex lg:translate-x-0 lg:translate-y-0 -translate-x-[89px] lg:mt-0 mt-2  border w-36 h-32 rounded bg-[#f8f8f8f8] flex-col items-center justify-center hover:bg-[url('../src/assets/images/shape.png')] hover:bg-[#0da487] hover:text-white">
+                        <img class="lg:w-[30px] w-[25px]" src="./assets/images/milk.svg" alt="">
+                        <a class="ml-2" href="#">Milk & Dairies</a>
+                    </div>
+                    <div
+                        class="besinci  flex lg:translate-x-0 lg:translate-y-0  translate-x-4 border w-36 h-32 lg:mt-0 mt-2 rounded bg-[#f8f8f8f8] flex-col items-center justify-center hover:bg-[url('../src/assets/images/shape.png')] hover:bg-[#0da487] hover:text-white">
+                        <img class="lg:w-[30px] w-[25px]" src="./assets/images/pet.svg" alt="">
+                        <a class="lg:ml-2" href="#">Pet Foods</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="yeddi mt-10">
+        <div class="container mx-auto lg:px-16 px-5 flex">
+            <div
+                class="seafood lg:block hidden rounded bg-[url('../src/assets/images/8.jpg')] lg:w-[32%] w-full h-screen bg-cover">
+                <div class="seafood translate-y-14">
+                    <span class="text-[#febe44] font-semibold pl-8 ">Seafood</span>
+                </div>
+                <div class="fresh text-3xl flex pl-8 translate-y-14">
+                    <span class="text-[#0da487]">FRESHES</span>
+                    <p class="ml-3">PRODUCTS</p>
+                </div>
+                <div class="every translate-y-16">
+                    <span class="text-[22px] font-semibold pl-8">every hour</span>
+                </div>
+                <div
+                    class="bes mt-2 border rounded-xl w-[9rem] translate-y-16 translate-x-7 h-12 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                    <span>Shop Now</span>
+                    <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                </div>
+            </div>
+            <div class="lg:w-[68%] w-full lg:flex-none flex-wrap">
+                <div
+                    class="yuxarii lg:-translate-x-0 -translate-x-5  lg:w-[50rem] w-full flex justify-evenly pl-8 lg:-translate-y-24 lg:flex-nowrap flex-wrap">
+                    <div
+                        class="solu rounded-xl flex justify-center  flex-col bg-[url('../src/assets/images/9.jpg')] lg:bg-center lg:bg-cover bg-[left_center_1rem] lg:w-[50%] w-full lg:h-[10rem] h-[12rem]">
+                        <span class="text-2xl font-semibold pl-5">50% offer</span>
+                        <p class="text-2xl font-serif text-[#0da487] pl-5">Testy Mushrooms</p>
+                        <div
+                            class="bes  border rounded w-[8rem] translate-y-2 translate-x-5 h-10 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                            <span>Shop Now</span>
+                            <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                        </div>
+                    </div>
+                    <div
+                        class="sagi rounded-xl flex justify-center  flex-col bg-[url('../src/assets/images/10.jpg')] lg:w-[50%] w-full lg:h-[10rem] h-[12rem] lg:mt-0 mt-3 bg-center bg-cover">
+                        <span class="text-2xl font-semibold pl-5">50% offer</span>
+                        <p class="text-2xl font-serif text-[#0da487] pl-5">Fresh MEAT</p>
+                        <div
+                            class="bes mt-2 border rounded w-[9rem] translate-y-2 translate-x-5 h-10 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                            <span>Shop Now</span>
+                            <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="asagi flex flex-col pl-8 lg:translate-x-0 -translate-x-5 lg:mt-0 mt-3">
+                    <div class="bass ">
+                        <div class="blog">
+                            <span class="text-3xl font-semibold">Food Cupboard</span>
+                        </div>
+                        <div class="yarpaq flex items-center">
+                            <div class="xet1 bg-[#0da487] w-16 h-0.5 mt-1"></div>
+                            <div class="teq">
+                                <i class="fa-solid fa-leaf text-[#0da487] text-[18px] ml-2 mr-2"></i>
+                            </div>
+                            <div class="xet2 bg-[#0da487]  w-16 h-0.5 mt-1"></div>
+                        </div>
+                        <div class="yazii mt-2 mb-4 w-[30rem]">
+                            <span class="text-gray-400 text-[17px]">A virtual assistant collects the products from your
+                                list</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div
+                            class="one group relative border  hidden w-[33%] lg:h-[355px] mb-4 lg:flex flex-col justify-center">
+                            <div class="sekill ml-8">
+                                <img class="group-hover:scale-105" src="./assets/images/1.png" alt="">
+                                <div
+                                    class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                    <div class="flex justify-evenly items-center translate-y-4">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                        <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chip ml-5 mt-4">
+                                <a class="text-[15px] font-semibold" href="#">Fantasy Crunchy Choco Chip</a>
+                            </div>
+                            <div class="cookies ml-5">
+                                <a href="#">Cookies</a>
+                            </div>
+                            <div class="reqemler ml-5">
+                                <span class="text-[#0da487]">$26.69</span>
+                                <span class="line-through">28.56</span>
+                            </div>
+                            <div class="ulduz ml-5 flex mt-3 object-contain">
+                                <img class="w-20" src="./assets/images/ulduzlar.png" alt="">
+                                <span class="text-[16px]">In Stock</span>
+                            </div>
+                            <div
+                                class="add flex justify-around bg-[#f8f8f8] w-56 h-10 ml-4 mt-4 rounded-full items-center">
+                                <span class="ml-4">Add</span>
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div
+                            class="two group relative border lg:translate-x-0 lg:w-[33%] w-1/2 lg:h-[355px] mb-4 flex flex-col justify-center items-center">
+                            <div class="one  translate-x-[42px]">
+                                <div class="sekill">
+                                    <img class="group-hover:scale-105 lg:mb-5 mt-2 lg:mt-0" src="./assets/images/3.png"
+                                        alt="">
+                                    <div
+                                        class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                        <div class="flex justify-evenly items-center translate-y-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                            <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chip lg:-translate-y-6">
+                                    <a class="lg:text-[15px] lg:ml-4 font-semibold" href="#">Butter Croissant</a>
+                                </div>
+                                <div class="cookies lg:ml-4 lg:-translate-y-7">
+                                    <a href="#">Cookies</a>
+                                </div>
+                                <div class="reqemler lg:ml-4 lg:-translate-y-7">
+                                    <span class="text-[#0da487]">$26.69</span>
+                                    <span class="line-through">28.56</span>
+                                </div>
+                                <div class="ulduz lg:ml-5 flex lg:-translate-y-3">
+                                    <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                    <span class="text-[16px]">In Stock</span>
+                                </div>
+                                <div
+                                    class="add add flex justify-around bg-[#f8f8f8] lg:w-56 w-44 lg:mt-0 mt-2 h-10 lg:ml-3 mr-20 lg:translate-y-[2px] -translate-y-2  rounded-full items-center">
+                                    <span class="ml-4">Add</span>
+                                    <p>+</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="three group relative border lg:w-[33%]  w-1/2 lg:h-[355px] mb-4 lg:translate-x-0  flex flex-col justify-center items-center">
+                            <div class="one lg:translate-x-0 translate-x-5">
+                                <div class="sekill">
+                                    <img class="group-hover:scale-105" src="./assets/images/5.png" alt="">
+                                    <div
+                                        class="w-36 h-12 top-32 absolute opacity-0 invisible bg-white group-hover:visible group-hover:opacity-100 transition duration-150">
+                                        <div class="flex justify-evenly items-center translate-y-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-solid fa-code border-l-2 h-4 pl-3 w-12"></i>
+                                            <i class="fa-regular fa-heart border-l-2 h-4 pl-3 w-12"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chip lg:translate-x-4">
+                                    <a class="text-[15px] font-semibold" href="#">Yumitos Chilli Sprinkled Potato Chips
+                                        100g</a>
+                                </div>
+                                <div class="reqemler lg:translate-x-4">
+                                    <span class="text-[#0da487]">$26.69</span>
+                                    <span class="line-through">28.56</span>
+                                </div>
+                                <div class="ulduz lg:ml-4 flex mt-3">
+                                    <img class="w-20 object-contain" src="./assets/images/ulduzlar.png" alt="">
+                                    <span class="text-[16px]">In Stock</span>
+                                </div>
+                                <div
+                                    class="add add flex justify-around bg-[#f8f8f8] lg:w-56 w-44 lg:translate-x-0 -translate-x-2  h-10 lg:ml-4 lg:mt-0 mt-2 rounded-full items-center lg:translate-y-3 -translate-y-[4px]">
+                                    <span class="lg:ml-4">Add</span>
+                                    <p>+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sekkiz lg:translate-x-0 lg:translate-y-0">
+        <div class="container mx-auto lg:px-16 px-5 flex">
+            <div class="w-[32%] lg:block hidden rounded bg-[url('../src/assets/images/11.jpg')] h-[60rem] bg-cover ">
+                <div class="soll1  ">
+                    <div class="seafood lg:translate-y-14">
+                        <span class="text-[#febe44] text-[16px] font-semibold pl-8 ">Organic</span>
+                    </div>
+                    <div class="fresh text-3xl pl-8 translate-y-14 ">
+                        <span class="text-[#0da487] font-bold">FRESHES</span>
+                        <p class="font-semibold">VEGETABLES</p>
+                    </div>
+                    <div class="every translate-y-16">
+                        <span class="text-[16px] text-gray-500 pl-8">Super Offer to 50% Off</span>
+                    </div>
+                    <div
+                        class="bes mt-2 border rounded-xl w-[9rem] translate-y-16 translate-x-7 h-12 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                        <span>Shop Now</span>
+                        <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-[68%] lg:mt-0 mt-10 lg:translate-x-0 -translate-x-5">
+                <div class="sagg1 pl-8">
+                    <div
+                        class="ciyelek w-full lg:translate-x-0 flex flex-col items-center text-white bg-[url('../src/assets/images/15.jpg')] rounded lg:w-full h-36 lg:bg-cover lg:bg-bottom bg-[center_bottom_1rem]">
+                        <span class="mt-5 lg:text-3xl text-[20px] font-semibold">Get $3 Cashback! Min Order of
+                            $30</span>
+                        <p class="xettler lg:w-52 h-10 flex justify-center items-center mt-5">Use Code :
+                            GROCERY1920</p>
+                    </div>
+                    <div
+                        class="meyve-siresi mt-10 lg:my-6 bg-[url('../src/assets/images/12.jpg')] rounded lg:w-full w-[26rem] lg:translate-x-0  h-56 bg-cover bg-bottom">
+                        <div class="soll1">
+                            <div class="fresh lg:text-3xl text-xl pl-8 translate-y-2 ">
+                                <span class="text-[#0da487] font-bold">Get Ready To</span>
+                                <p class="font-semibold">TAKE ON THE DAY!</p>
+                            </div>
+                            <div class="lg:w-80 pl-8 mt-3">
+                                <span class="text-gray-400 lg:text-[16px] text-[14px]">In publishing and graphic design,
+                                    Lorem ipsum is
+                                    a placeholder text commonly used to demonstrate.</span>
+                            </div>
+                            <div
+                                class="bes mt-2 border rounded-xl lg:w-[9rem] w-[7rem] translate-x-7 lg:h-12 h-10 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                                <span>Shop Now</span>
+                                <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="hello flex flex-col justify-center pl-8 bg-[url('../src/assets/images/13.jpg')] rounded lg:w-full w-[26rem] lg:translate-x-0 lg:mt-0 mt-10   h-40 bg-cover bg-center">
+                        <h1 class="lg:text-3xl text-xl font-semibold text-red-500 ">20% Off</h1>
+                        <h2 class="lg:text-3xl text-xl font-semibold text-[#0da487] lg:my-3">SUMMRY</h2>
+                        <h3 class="lg:text-3xl text-xl font-semibold">Product</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doqquz lg:h-[834px] lg:translate-y-0">
+        <div class="container mx-auto lg:px-16 px-5 flex">
+            <div class="lg:w-[32%] lg:h-[714px] hidden bg-[#f8f8f8] lg:mt-16 lg:flex flex-col">
+                <div class="trending mt-7 pl-5">
+                    <span class="text-xl">Trending Products</span>
+                </div>
+                <div class="xettt border-b-2 lg:w-28 border-green-500 mt-1 translate-x-6"></div>
+                <div class="group qab flex justify-around mt-10">
+                    <div class="qirmizi group-hover:scale-105">
+                        <a href="#">
+                            <img class="w-16" src="./assets/images/23.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sagi1 flex flex-col">
+                        <a class="group-hover:text-[#0da487]" href="#">Meatigo Premium Goat Curry</a>
+                        <span>450 G</span>
+                        <p class="group-hover:text-[#0da487]">$ 70.00</p>
+                    </div>
+                </div>
+                <div class="cuval group  flex justify-around mt-20 mr-16">
+                    <div class="xettler  translate-x-[21rem] -translate-y-[2rem]"></div>
+                    <div class="wabalid  group-hover:scale-105">
+                        <div>
+                            <img class="w-16" src="./assets/images/24.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sagii2 flex flex-col translate-x-6">
+                        <a class="group-hover:text-[#0da487]" href="#">Dates Medjoul Premium...</a>
+                        <span>450 G</span>
+                        <p class="group-hover:text-[#0da487]">$ 40.00</p>
+                    </div>
+                </div>
+                <div class="lepe group flex justify-around mt-24 mr-10">
+                    <div class="xettler  translate-x-[21rem] -translate-y-[2rem]"></div>
+                    <div class="qoz group-hover:scale-105 mr-3">
+                        <a href="#">
+                            <img class="w-16" src="./assets/images/25.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sagii3 flex flex-col ">
+                        <a class="group-hover:text-[#0da487]" href="#">Good Life Walnut Kernels</a>
+                        <span>200 G</span>
+                        <p class="group-hover:text-[#0da487]">$ 52.00</p>
+                    </div>
+                </div>
+                <div class="almalar group  flex justify-around mt-20 mr-5">
+                    <div class="xettler  translate-x-[21rem] -translate-y-[2rem]"></div>
+                    <div class="alma group-hover:scale-105">
+                        <a href="#">
+                            <img class="w-16" src="./assets/images/26.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sagii4 flex flex-col">
+                        <a class="group-hover:text-[#0da487]" href="#">Apple Red Premium Imported</a>
+                        <span>1 KG</span>
+                        <p class="group-hover:text-[#0da487]">$ 80.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[68%] pl-8">
+                <div class="bass lg:-translate-y-[340px] translate-y-[57px] lg:translate-x-0 -translate-x-4">
+                    <div class="blog">
+                        <span class="text-3xl font-semibold">Our Best Seller</span>
+                    </div>
+                    <div class="yarpaq flex items-center">
+                        <div class="xet1 bg-[#0da487] w-16 h-0.5 mt-1"></div>
+                        <div class="teq">
+                            <i class="fa-solid fa-leaf text-[#0da487] text-[18px] ml-2 mr-2"></i>
+                        </div>
+                        <div class="xet2 bg-[#0da487]  w-16 h-0.5 mt-1"></div>
+                    </div>
+                    <div class="yazii mt-2 mb-4 w-[25rem]">
+                        <span class="text-gray-400 text-[17px]">A virtual assistant collects the products from your
+                            list</span>
+                    </div>
+                </div>
+                <div
+                    class="umumi flex lg:w-full w-[50rem] lg:-translate-y-[325px] translate-y-[60px] lg:translate-x-0 -translate-x-10">
+                    <div class="umumi-sol  hidden border w-1/2 rounded lg:flex flex-col justify-center">
+                        <div class="yagg group flex items-center justify-around mt-8 translate-x-8">
+                            <div class="qirmizi  group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/19.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagi1 flex flex-col mr-6">
+                                <a class="group-hover:text-[#0da487]" href="#">Good Life Refined Sunflower</a>
+                                <span>1 L</span>
+                                <p class="group-hover:text-[#0da487]">$ 10.00</p>
+                            </div>
+                        </div>
+                        <div class="banka group flex  justify-around mt-20">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="wabalid group-hover:scale-105 pr-20">
+                                <a href="#">
+                                    <img src="./assets/images/18.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagii2 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Organic Jam</a>
+                                <span>150 G</span>
+                                <p class="group-hover:text-[#0da487]">$ 10.00</p>
+                            </div>
+                        </div>
+                        <div class="sud group flex items-center justify-around mt-20">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="qoz mr-12 group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/16.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagii3 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Long life Toned Milk</a>
+                                <span>1 L</span>
+                                <p class="group-hover:text-[#0da487]">$ 10.00</p>
+                            </div>
+                        </div>
+                        <div class="sabun group flex items-center justify-around mt-20 mb-10">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="alma group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/15.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagii4 flex flex-col ml-4">
+                                <a class="group-hover:text-[#0da487]" href="#">Tuffets Britania Cheezza</a>
+                                <span>50 G</span>
+                                <p class="group-hover:text-[#0da487]">$ 10.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="umumi-sag border  w-1/2 ml-5 rounded flex flex-col justify-center">
+                        <div class="corek group flex items-center justify-around mb-6">
+                            <div class="qirmizi group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/14.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagi1 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Muffets burger</a>
+                                <span>150 G</span>
+                                <p class="group-hover:text-[#0da487]">$ 10.00</p>
+                            </div>
+                        </div>
+                        <div class="biber group flex items-center justify-around mt-10">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="wabalid group-hover:scale-105">
+                                <img src="./assets/images/13.png" alt="">
+                            </div>
+                            <div class="sagii2 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Dates Medjoul Premium...</a>
+                                <span>450 G</span>
+                                <p class="group-hover:text-[#0da487]">$ 40.00</p>
+                            </div>
+                        </div>
+                        <div class="kartof group flex items-center justify-around mt-16">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="qoz group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/12.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagii3 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Good Life Walnut Kernels</a>
+                                <span>200 G</span>
+                                <p class="group-hover:text-[#0da487]">$ 52.00</p>
+                            </div>
+                        </div>
+                        <div class="qara-corek group flex items-center justify-around mt-28">
+                            <div class="xettler  translate-x-[20rem] -translate-y-[5rem]"></div>
+                            <div class="qara-corek flex  items-center justify-around group-hover:scale-105">
+                                <a href="#">
+                                    <img src="./assets/images/11.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sagii4 flex flex-col">
+                                <a class="group-hover:text-[#0da487]" href="#">Apple Red Premium Imported</a>
+                                <span>1 KG</span>
+                                <p class="group-hover:text-[#0da487]">$ 80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="qarsiq bg-[url('../src/assets/images/14.jpg')] lg:w-full w-[25rem] lg:translate-x-0 -translate-x-5 lg:mt-0 mt-[90px] h-64 lg:bg-cover lg:bg-center bg-[right_bottom_0rem] lg:-translate-y-60 translate-y-[100]px">
+                    <div class="lg:translate-x-0 -translate-x-[150px]">
+                        <div class="soll1 w-80 flex justify-center items-center flex-col ml-48">
+                            <div class="fresh text-3xl pl-8 lg:translate-y-14 flex flex-col items-center">
+                                <span class="text-[#0da487] text-[20px]">SUMMER</span>
+                                <p class="font-semibold text-[50px]">VEGETABLE</p>
+                            </div>
+                            <div class="every lg:translate-y-16">
+                                <span class="text-[16px] text-gray-500 pl-8">Save up to 5% Off</span>
+                            </div>
+                            <div
+                                class="bes mt-2 border rounded-xl w-[8rem] lg:translate-y-16 lg:translate-x-7 h-10 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                                <span>Shop Now</span>
+                                <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="on lg:translate-y-0  lg:translate-x-0 ">
+        <div class="container mx-auto lg:px-16 px-5 flex mb-11">
+            <div class="w-[32%] hidden h-[25rem] rounded bg-[#f8f8f8] pl-8 lg:flex flex-col ">
+                <div class="mt-6">
+                    <span class="text-xl font-semibold ">Customer Comment</span>
+                </div>
+                <div class="xett bg-[#0da487] w-32 h-0.5 mt-1"></div>
+                <div class="care mt-6 w-[222px] font-semibold">
+                    <span>We Care About Our Customer Experience</span>
+                </div>
+                <div class="graphic mt-5 w-[294px]">
+                    <p class="text-[14px] text-gray-500">In publishing and graphic design, Lorem ipsum is a placeholder
+                        text commonly used to demonstrate
+                        the visual form of a document or a typeface without relying on meaningful content</p>
+                </div>
+                <div class="qiz flex mt-8 items-center">
+                    <div class="sekil ">
+                        <img class="w-20 rounded-full hover:rounded" src="./assets/images/gulumse.jpg" alt="">
+                    </div>
+                    <div class="yazi ml-5">
+                        <span class="text-xl font-semibold">Tina Mcdonnale</span>
+                        <p class="text-gray-500 font-semibold mt-2">Sale Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[68%]  flex flex-col pl-5">
+                <div class="blog">
+                    <span class="text-3xl font-semibold">Featured Blog</span>
+                </div>
+                <div class="yarpaq flex items-center">
+                    <div class="xet1 bg-[#0da487] w-16 h-0.5 mt-1"></div>
+                    <div class="teq">
+                        <i class="fa-solid fa-leaf text-[#0da487] text-[18px] ml-2 mr-2"></i>
+                    </div>
+                    <div class="xet2 bg-[#0da487]  w-16 h-0.5 mt-1"></div>
+                </div>
+                <div class="yazii mt-2 mb-4 w-[32rem]">
+                    <span class="text-gray-400 text-[17px]">A virtual assistant collects the products from your
+                        list</span>
+                </div>
+                <div class="sekiller lg:w-[47rem] w-[28rem] flex">
+                    <div class="butulka group w-full lg:translate-x-0 -translate-x-1">
+                        <div class="sekil1 w-full">
+                            <img class="w-full group-hover:-skew-x-6 group-hover:ease-in duration-300 group-hover:scale-105"
+                                src="./assets/images/qutu.jpg" alt="">
+                        </div>
+                        <div class="alt-yazi flex flex-col mt-1">
+                            <span class="text-gray-800">20 March, 2022</span>
+                            <span class="font-semibold text-xl group-hover:text-[#0da487]">Fresh Vegetable Online</span>
+                        </div>
+                    </div>
+                    <div class="kivi group w-[47rem] h-10 hidden lg:block pl-4">
+                        <div class="sekil2 w-full">
+                            <img class="w-full h-60 rounded-xl group-hover:-skew-x-6 group-hover:ease-in duration-300 group-hover:scale-105"
+                                src="./assets/images/3.jpg" alt="">
+                        </div>
+                        <div class="alt-yazi2 flex flex-col mt-1">
+                            <span class="text-gray-800">10 April,2022</span>
+                            <span class="font-semibold text-xl group-hover:text-[#0da487]">Fresh Combo Fruit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="on-bir">
+        <div class="container mx-auto lg:px-16 px-5 my-8 lg:translate-x-0 translate-x-[45px] lg:translate-y-0 ">
+            <div
+                class=" lg:w-full w-[28rem] lg:translate-x-0 -translate-x-12 h-52 rounded-xl bg-arxa-fon bg-cover lg:bg-bottom bg-center flex flex-col justify-center pl-32">
+                <div class="lg:translate-x-0 -translate-x-[110px]">
+                    <div class="our">
+                        <span class="lg:text-3xl text-[22px]  font-semibold text-white">Join Our Newsletter And
+                            Get...</span>
+                    </div>
+                    <div class="your">
+                        <span class="text-[#ffbc5d] text-[20px]">$20 discount for your first order</span>
+                    </div>
+                    <div class="input flex items-center lg:mt-0 mt-5">
+                        <div>
+                            <i
+                                class="fa-solid fa-envelope text-[#0da487] bg-[#e6f6f3] h-8 w-8 flex justify-center items-center absolute z-20 lg:-translate-x-2 lg:translate-y-5 translate-y-1"></i>
+                            <input
+                                class="lg:h-12 lg:w-[31rem] w-[26rem] lg:mt-3 lg:-translate-x-5 -translate-x-[6px] rounded h-10 pl-14 outline-none"
+                                type="text" placeholder="Enter Your Email">
+                        </div>
+                        <div>
+                            <div
+                                class="bes lg:-translate-x-[150px] lg:translate-y-[6px] -translate-x-11 translate-y-0 border rounded lg:w-[8rem] w-9 lg:h-10 h-9 text-white bg-red-400 hover:bg-red-300 flex items-center justify-evenly">
+                                <span class="lg:block hidden">Shop Now</span>
+                                <i class="fa-solid fa-arrow-right-long hover:translate-x-2 transition-duration-75"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="on-iki">
+        <div
+            class="bg-[url('../src/assets/images/footer-shape-2.png')] lg:w-full w-[30rem] h-[40rem] bg-[#f8f8f8] lg:translate-x-0 translate-x-1 lg:translate-y-0">
+            <div class="container mx-auto lg:px-16 px-5 ">
+                <div class="kamaz hidden lg:flex justify-between  translate-y-9">
+                    <div class="kamaz-sol flex justify-center items-center flex-col">
+                        <div class="suse flex items-center">
+                            <img src="./assets/images/product.svg" alt="">
+                            <span class="ml-5">Every Fresh Products</span>
+                        </div>
+                        <div class="yumru flex items-center mt-4">
+                            <img src="./assets/images/discount.svg" alt="">
+                            <span class="ml-5">Daily Mega Discounts</span>
+                        </div>
+                    </div>
+                    <div class="kamaz-sag flex justify-center items-center flex-col">
+                        <div class="yuk-k flex items-center">
+                            <img src="./assets/images/delivery.svg" alt="">
+                            <span class="ml-5">Free Delivery For Order Over $50</span>
+                        </div>
+                        <div class="el flex items-center mt-4 mr-9">
+                            <img src="./assets/images/market.svg" alt="">
+                            <span class="ml-5">Best Price On The Market</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="xettlerrr lg:block hidden -translate-x-6 translate-y-24"></div>
+                <div class="coxluq lg:flex justify-evenly translate-y-36">
+                    <div class="birr1 lg:w-1/5 lg:translate-x-0 lg:translate-y-0  -translate-y-28">
+                        <div class="sekill lg:w-[60%] w-36">
+                            <img src="./assets/images//logo/1.png" alt="">
+                        </div>
+                        <div class="yazi lg:w-[94%] w-[25rem] mt-5">
+                            <span class="text-gray-600">We are a friendly bar serving a variety of cocktails, wines and
+                                beers. Our bar is a
+                                perfect place for a couple.</span>
+                        </div>
+                        <div class="ev w-[20rem] mt-6">
+                            <i class="fa-solid fa-house text-gray-500"></i>
+                            <a class="ml-2 text-[15px]" href="#">1418 Riverwood Drive,CA,96052,US</a>
+                        </div>
+                        <div class="mektub mt-4">
+                            <i class="fa-solid fa-envelope text-gray-500"></i>
+                            <a class="ml-4" href="#">support@fastkart.com</a>
+                        </div>
+                    </div>
+                    <div class="iki2 w-1/5 lg:ml-20 lg:translate-x-0 lg:translate-y-0 -translate-y-20 ">
+                        <span class="text-xl font-semibold ">Categories</span>
+                        <i class="fa-solid fa-angle-down lg:hidden block translate-x-96 -translate-y-5"></i>
+                        <ul class="mt-4 lg:block hidden">
+                            <li class="text-gray-500 ">
+                                <a href="#">Vegetables & Fruit</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Beverages</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Meats & Seafood</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Frozen Foods</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Biscuits & Snacks</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Grocery & Staples</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uc3 lg:w-1/5 lg:translate-x-0 lg:translate-y-0  -translate-y-20">
+                        <span class="text-xl font-semibold">Useful Links</span>
+                        <i class="fa-solid fa-angle-down lg:hidden block translate-x-96 -translate-y-5"></i>
+                        <ul class="mt-4 lg:block hidden">
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Shop</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="text-gray-500 mt-2">
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dord4  lg:w-1/5 lg:translate-x-0 lg:translate-y-0  -translate-y-20">
+                        <span class="font-semibold text-xl">Help Center</span>
+                        <i class="fa-solid fa-angle-down lg:hidden block translate-x-96 -translate-y-5"></i>
+                        <ul class="mt-4 lg:block hidden">
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">Your Order</a>
+                            </li>
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">Your Account</a>
+                            </li>
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">Track Order</a>
+                            </li>
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">Your Wishlist</a>
+                            </li>
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">Search</a>
+                            </li>
+                            <li class="mt-2 text-gray-500">
+                                <a href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bes5 lg:w-1/5 lg:translate-x-0 lg:translate-y-0  -translate-y-20">
+                        <div class="contact">
+                            <span class="text-xl font-semibold">Contact Us</span>
+                            <i class="fa-solid fa-angle-down lg:hidden block translate-x-96 -translate-y-5"></i>
+                        </div>
+                        <div class="hotline lg:flex hidden">
+                            <div class="tell">
+                                <i class="fa-solid fa-phone text-gray-500"></i>
+                            </div>
+                            <div class="nom ml-3 lg:block hidden">
+                                <span class="text-gray-500">Hotline 24/7 :</span>
+                                <p>+91 888 104 2340</p>
+                            </div>
+                        </div>
+                        <div class="email lg:flex my-12 hidden">
+                            <div class="xettler translate-x-48 -translate-y-5 lg:block hidden"></div>
+                            <div class="mektubb lg:block hidden">
+                                <i class="fa-solid fa-envelope text-gray-500"></i>
+                            </div>
+                            <div class="email-1 ml-3">
+                                <span class="text-gray-500">Email Address :</span>
+                                <p>fastkart@hotmail.com</p>
+                            </div>
+                        </div>
+                        <div class="download mt-6 lg:flex flex-col hidden">
+                            <div class="xettler -translate-x-4 -translate-y-5"></div>
+                            <div class="usst">
+                                <span>Download App :</span>
+                            </div>
+                            <div class="sekiller">
+                                <a class="flex justify-evenly w-full" href="#">
+                                    <img src="./assets/images//playstore.svg" alt="">
+                                    <img src="./assets/images//appstore.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xettlerrr lg:-translate-x-6 lg:translate-y-48 translate-y-20 -translate-x-8 ">
+                </div>
+                <div class="alt lg:translate-y-44 translate-y-16 lg:flex justify-between mt-12">
+                    <div class="soll lg:ml-0 ml-12 lg:text-[16px] text-[14px] lg:translate-x-0 translate-x-[50px]">
+                        <span class="text-gray-400">©2022 Fastkart All rights reserved</span>
+                    </div>
+                    <div class="ortaa lg:translate-x-0 translate-x-[50px]">
+                        <img src="./assets/images/cut.png" alt="">
+                    </div>
+                    <div class="sagg flex lg:ml-0 ml-12 lg:text-[16px] text-[14px] lg:translate-x-0 translate-x-[50px]">
+                        <span>Stay connected :</span>
+                        <ul class="flex lg:w-36 w-28 justify-around">
+                            <li class="text-gray-500">
+                                <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#"><a href="https://in.pinterest.com/" target="_blank">
+                                        <i class="fa-brands fa-pinterest-p"></i>
+                                    </a></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="bg-[#0da487] flex text-white text-center items-center w-[30rem] h-20 -translate-x-5 translate-y-4 sticky bottom-0 bg-opacity-100 z-50 lg:hidden">
+                        <div class="birr flex flex-col w-[20%]">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </div>
+                        <div class="ikii flex flex-col w-[20%]">
+                            <i class="fa-solid fa-list"></i>
+                            <span>Category</span>
+                        </div>
+                        <div class="ucc flex flex-col w-[20%]">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Serach</span>
+                        </div>
+                        <div class="dordd flex flex-col w-[20%]">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>My Wish</span>
+                        </div>
+                        <div class="bess flex flex-col w-[20%]">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>Card</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="on-uc">
+        <div class="fixed right-5 bottom-5 border rounded w-10 h-10 bg-[#0da487] flex justify-center items-center">
+            <i class="fa-solid fa-angle-up text-white"></i>
+        </div>
+        <div
+            class="fixed right-5 bottom-10 border rounded w-10 h-10 mb-10 bg-[#0da487] flex justify-center items-center">
+            <i class="fa-solid fa-gear text-white"></i>
+        </div>
+    </section>
+</body>
+
+</html>
