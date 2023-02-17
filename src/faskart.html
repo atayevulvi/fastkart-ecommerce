@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
 </head>
 
 <body class="overflow-x-hidden">
@@ -23,7 +23,7 @@
                     Coupon
                     Code:Fast024</span>
             </div>
-            <div class="sag w-1/5 flex justify-evenly items-center ml-20 lg:translate-x-0 translate-x-24">
+            <div class="sag w-1/5 flex justify-evenly items-center z-50 ml-20 lg:translate-x-0 translate-x-24">
                 <div class="sol1 flex items-center justify-evenly w-[108px] relative dropdown-language">
                     <input type="checkbox" class="hidden" id="check">
                     <label for="check" class="cursor-pointer">
@@ -75,11 +75,20 @@
                     src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="">
             </div>
             <div class="w-[70%] hidden  lg:flex justify-evenly">
-                <div class="border rounded w-[200px] h-[50px] flex justify-around items-center">
+                <div class="border rounded w-[200px] h-[50px] flex justify-around items-center px-2">
                     <i
                         class="bg-gray-200 w-9 h-9 rounded flex justify-center items-center fa-solid fa-location-dot"></i>
-                    <span>Your Location</span>
-                    <i class="fa-solid fa-angle-down"></i>
+
+                    <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"></label>
+                    <select id="countries"
+                        class="outline-none text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option selected>All catagory</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="FR">France</option>
+                        <option value="DE">Germany</option>
+                    </select>
+
                 </div>
                 <div class="border rounded w-[34rem] flex justify-between items-center">
                     <input class="ml-4 outline-none" type="text" placeholder="I'm searching for...">
@@ -1738,6 +1747,7 @@
             <i class="fa-solid fa-gear text-white"></i>
         </div>
     </section>
+
 </body>
 
 </html>
