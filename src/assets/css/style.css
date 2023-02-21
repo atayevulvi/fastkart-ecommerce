@@ -2920,12 +2920,12 @@ video {
     width: 47rem;
   }
 
-  .lg\:w-\[48rem\] {
-    width: 48rem;
+  .lg\:w-\[48\%\] {
+    width: 48%;
   }
 
-  .lg\:w-\[50\%\] {
-    width: 50%;
+  .lg\:w-\[48rem\] {
+    width: 48rem;
   }
 
   .lg\:w-\[50rem\] {
